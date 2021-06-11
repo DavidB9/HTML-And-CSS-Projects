@@ -1,0 +1,240 @@
+/*set up the properties for the overall html page*/
+html {
+    font-family:sans-serif;
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -ms-text-size-adjust: 100%
+}
+
+/*Set properties of the body if the doc*/
+body{
+    font-size: 14px;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+footer,
+nav {
+    display: block;
+}
+
+/*Give all headings a font style*/
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans',sans-serif;
+}
+
+h1{
+    line-height: 50px;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align:center;
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+.text-center{
+    text-align: center;
+}
+
+.heading-padding{
+    padding-bottom: 40px;
+}
+
+section{
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.navbar{
+    height: 105px;
+    max-height: 340px;
+    display: block;
+}
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-fluid{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.wrap{
+    height: 100%;
+    width: 100%;
+    position: absolute; /*Image cannot render outside container*/
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.menu-container{
+    background-color: lightblue;
+    max-height: 340px;
+    margin: 0% auto;
+    content: "";
+    width:100%;
+    position:fixed;
+    z-index: 100;
+}
+
+/*Home section */
+
+#home{
+    background: url(./Images/Travel.jpg) no-repeat 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    padding-top: 350px;
+    padding-bottom: 350px;
+    color:#fff;
+}
+
+.head-main{
+    font-variant: small-caps;
+    color: black;
+    letter-spacing: 5pt;
+    word-spacing: 21pt;
+    font-size: 4.5em;
+    text-align: left;
+    font-family: sans-serif,impact;
+    line-height: 2;
+    font-weight: 900;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+/*Video styles*/
+#video{
+    text-align: center;
+    background-color: white;
+}
+
+/*Contact styles*/
+.flex-container{
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    margin: 0px auto;
+}
+
+#contact{
+    background-color: white;
+}
+
+.reservations{
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    background-color:lightskyblue;
+}
+
+.reservations h2{
+    line-height: 50px;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align:center;
+    color: black;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+
+.reservations p{
+    color: black;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.reservations form{
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: black;
+    padding: 12px 12px;
+    width: 70%;
+    border: 1px solid lightgray;
+    margin: 2% auto;
+    border-radius: 7px;
+    background: lightgray;
+    box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.3);
+}
+
+.reservations input[type="text"]{
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    padding: 2% 1% 2% 7%;
+    width: 80%;
+    margin: 10px 1em;
+    border: 1px solid black;
+    border-radius: 7px;
+    background: white;
+    box-shadow: inset 0px 3px 0px rgba(5, 5, 5, 0.15);
+}
+
+
+.form-spacer{
+    padding: 30px 35px;
+}
+
+.terms{
+    margin: 30px 1px 0 0;
+    text-decoration: underline;
+    padding-left: 50px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    position: relative;
+    display: inline;
+    float: right;
+}
+
+
+.submit input[type="submit"]{
+    color: black;
+    cursor: pointer;
+    border: none;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    margin: 0px 3%;
+    padding: 7px 0px;
+    width: 25%;
+    font-size: 18px;
+    transition: border-color 0.3s color 0.3s background-color 0.3s;
+    border-radius: 5px;
+    background-color: grey;
+}
+
+
+#footer{
+    background-color: lightblue;
+    color: #000;
+    padding: 20px;
+    text-align: left;
+    
+}
