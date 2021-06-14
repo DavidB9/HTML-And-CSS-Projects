@@ -1,0 +1,17 @@
+html{
+    background-color: black;
+}
+
+p{
+    color: white;
+}
+
+@media screen and (max-width: 600px){
+    p{
+        color: blue;
+    }
+    html{
+        background-color: white;
+    }
+}
+    

@@ -1,0 +1,8 @@
+.navbar{
+    background-color: cyan;
+    color: white;
+}
+
+.navbar li:hover{
+    background-color: black;
+}
