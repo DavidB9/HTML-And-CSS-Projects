@@ -2,10 +2,10 @@
 Display of sample websites that I made using HTML and CSS.
 
 Projects:
- -Space Station Site
- -Movie Theatre Site
- -One-Page Webite
- -Student Portfolio
+  Space Station Site, 
+  Movie Theatre Site, 
+  One-Page Webite, 
+  Student Portfolio
 
 Space Station Site:
 An example home page for a Space travel company. It is styled using CSS and contains elements such as a navbar,photo containers and a form.
