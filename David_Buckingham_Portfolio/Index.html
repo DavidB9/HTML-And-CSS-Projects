@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="CSS/Portfolio.css">
+        <title>David Buckingham's Portfolio</title>
+    </head>
+
+    <!--Body-->
+    <body class="background">
+
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="Github">GitHub</a>
+            <a href="Contact">Contact</a>
+        </div>
+        <!--Adding some breaks to add space between navbar and heading-->
+        <br>
+        <br>
+
+        <!--Background Video-->
+        <div id="Home">
+           <video autoplay muted loop id="Typing_Video">
+                <source src="Images/Video/video.mp4" type="video/mp4">
+               <!-- Message that appears if video fails-->
+                 Your browser does not support HTML5 video.
+            </video>
+        
+        </div>
+        
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">David Buckingham</h1>
+            <strong>
+                <p class="center">
+                    <q>Any fool can write code that a computer can understand.
+                        <br>Good programmers write code that humans can understand
+                    </q>
+                    <br>– Martin Fowler
+                    <br>
+                    <br>
+                    <br> My name is David Buckingham. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>
+                    <br> Thank you for stopping by and enjoy! 
+                </p>
+            </strong>
+        </div>
+
+        <!--About-->
+        <div class="row" id="About">
+            <!-- Left col-->
+            <div class="col_2">
+                <img src="Images/Img_1.jpg" alt="">
+            </div>
+            <!-- Right col-->
+            <div class="col_1">
+                <h1>About</h1>
+                <p>
+                    I am a software/web developer that enjoys creating new applications and sites using code.
+                    <br>
+                    <br>I am a graduate of <a href="https://www.itcarlow.ie/courses/type/undergraduate-cao-courses/computing-networking-courses/cw208.htm" target="_blank">Carlow IT's Computer games development course</a> and currently working for my Diploma in Web/sofware development with <a href="https://www.pitman-training.ie/our-centres/laois/">Pitman training</a>
+                    <br>
+                    <br>I have training and experience in the following web and programming languages: HTML, CSS, JavaScript, C# and C++. 
+                    <br>
+                    <br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub section-->
+        <div class="row" id="GitHub">
+            <!--left col-->
+            <div class="col_1">
+                <h1>GitHub</h1>
+                <p class="center">
+                    You can view my various Projects on my GitHub profile here:
+                     <br>
+                     <p class="center"><a href="https://github.com/DavidB9" target="_blank">David Buckingham's GitHub</a></p>
+                </p>
+            </div>
+            <!--right col-->
+            <div class="col_2">
+                <a href="https://github.com/DavidB9" target="_blank"><img src="Images/GitHub.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact Section-->
+        <div class="row" id="Contact">
+            <!--Contact Image, Left col-->
+            <div class="col_2 col_tall">
+                <img src="Images/Img_2.jpg" alt="">
+            </div>
+
+            <!--Contact form right col-->
+            <div class="col_1 col_tall">
+                <h1>Contact</h1>
+                <!--Where and how to send form data(will be left blank)-->
+                <form action="" method="POST">
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your Email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <footer>
+            <p>
+                <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
